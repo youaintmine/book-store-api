@@ -13,6 +13,7 @@ function BookShow({book, onDelete, onEdit}) {
     }
 
     const handleSubmit = (id, title) => {
+        console.log("BookShow" + "id : " + id + " title : " + title);
         setShowEdit(false);
         onEdit(id, title);
     }

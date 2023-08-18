@@ -15,7 +15,7 @@ function BookEdit({book, onSubmit}) {
 
     return <form onSubmit={handleSubmit} className="book-edit">
         <label>Title</label>
-        <input className="input" value={book.title} onChange={handleToggleChange}/>
+        <input className="input" value={booktitle} onChange={handleToggleChange}/>
         <button className="button is-primary">
             Save
         </button>
